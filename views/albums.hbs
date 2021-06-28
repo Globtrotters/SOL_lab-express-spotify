@@ -1,0 +1,10 @@
+<ul class="list">
+{{#each allTheAlbums}}
+
+    <li class="card flex-cl">
+        <img src="{{ this.images.0.url }}" alt="" width="160px">
+        <p>{{ this.name }}</p>
+        <a href="/tracks/{{ this.id }}">View tracks</a>
+    </li>
+{{/each}}
+</ul>

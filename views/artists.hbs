@@ -1,0 +1,12 @@
+<ul class="list">
+    {{#each allTheArtists}}
+    <li class="card flex-cl">
+        <img src="{{ images.0.url }}" alt="" width="160px" >  
+        <p>{{ name }}</p>
+    {{!-- app.get('/albums/:artistId'....) --}}
+    <a href="/albums/{{id}}">See the albums</a>
+    </li>
+
+    {{/each}}
+
+</ul>

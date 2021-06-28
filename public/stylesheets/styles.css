@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222222;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-cl {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #fafafa;
+	margin-bottom: 25px;
+}
+
+.form-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #222222;
+}
+
+form {
+	background-color: rgba(250, 250, 250, 0.8);
+	width: 50vw;
+	height: 30vh;
+	border-radius: 5px;
+}
+
+input {
+	border: none;
+	padding: 10px 25px;
+}
+
+input:focus,
+input:active {
+	outline: none;
+}
+
+button {
+	border: none;
+	padding: 10px 15px;
+	background-color: #6fbe1f;
+	color: white;
+}
+
+button:hover {
+	background-color: greenyellow;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+}
+
+.card {
+	height: 35vh;
+	width: 30vw;
+	background-color: #fafafa;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	list-style-type: none;
+}
+
+.card > img {
+	height: 80%;
+	width: auto;
+}
+
+.card > p {
+	margin: 5px 0;
+}
+
+.tracks > p {
+	background-color: #fafafa;
+}

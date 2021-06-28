@@ -1,0 +1,12 @@
+<ul class="list">
+{{#each tracks  }}
+    <li class="card">
+    {{#if this.preview_url  }}
+        <audio controls src="{{this.preview_url}}"></audio>
+        <p>{{this.name}}</p>
+        {{else}}
+    <p>The preview is not available. Sorry!</p>
+    {{/if}}
+    <li/>
+{{/each}}
+</ul>
